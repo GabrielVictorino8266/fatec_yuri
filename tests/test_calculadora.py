@@ -1,11 +1,3 @@
-def somar(a, b):
-    return a + b
-
-def dividir(a, b):
-    if b == 0:
-        raise ValueError("Divisão por zero!")
-    return a / # tests/test_calculadora.py
-
 import pytest
 from src.calculadora import somar, dividir
 
